@@ -1,0 +1,59 @@
+.container {
+  width: 90vw;
+  height: 600px;
+  border: 1px black solid;
+  position: relative;
+  margin: auto;
+}
+.road {
+  width: 100%;
+  border-top: 1px black solid;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+.building {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 10px;
+}
+.building.left {
+  left: 15px;
+}
+.building.right {
+  right: 15px;
+}
+.call_army {
+  display: inline-flex;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px black solid;
+  position: absolute;
+  top: 0;
+}
+.army {
+  position: absolute;
+  bottom: 15px;
+  left: 155px;
+  z-index: 999;
+}
+.army.right {
+  left: unset;
+  right: 155px;
+}
+.army.solider {
+  background: red;
+  width: 25px;
+  height: 45px;
+}
+.army.archer {
+  background: green;
+  width: 25px;
+  height: 45px;
+}
+.army.leader {
+  background: orange;
+  width: 50px;
+  height: 60px;
+}
